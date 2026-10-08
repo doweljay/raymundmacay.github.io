@@ -4,26 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Basics -->
-  <title>Raymund Macay — Kyut</title>
-  <meta name="description" content="Raymund Macay, also known as Bebe, is a retired Mamayotay from Omod, Bayawan City. Just a kid with a big dream." />
+  <title>Raymund Macay</title>
+  <meta name="description" content="Raymund Macay, also known as Bebe, from Omod, Bayawan City." />
   <meta name="author" content="Raymund Macay" />
   <link rel="canonical" href="https://raymundmacay.github.io/" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Raymund Macay — Kyut" />
-  <meta property="og:description" content="Just a kid with a big dream. From Omod, Bayawan City." />
+  <meta property="og:title" content="Raymund Macay" />
+  <meta property="og:description" content="From Omod, Bayawan City." />
   <meta property="og:url" content="https://raymundmacay.github.io/" />
-  <meta property="og:image" content="https://raymundmacay.github.io/photo.jpg" />
+  <meta property="og:image" content="https://raymundmacay.github.io/photo1.jpg" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Raymund Macay — Kyut" />
-  <meta name="twitter:description" content="Just a kid with a big dream. From Omod, Bayawan City." />
-  <meta name="twitter:image" content="https://raymundmacay.github.io/photo.jpg" />
+  <meta name="twitter:title" content="Raymund Macay" />
+  <meta name="twitter:description" content="From Omod, Bayawan City." />
+  <meta name="twitter:image" content="https://raymundmacay.github.io/photo1.jpg" />
 
-  <!-- Schema.org Person Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,10 +28,8 @@
     "givenName": "Raymund",
     "familyName": "Macay",
     "alternateName": "Bebe",
-    "jobTitle": "Retired Mamayotay / Kyut",
     "url": "https://raymundmacay.github.io",
-    "image": "https://raymundmacay.github.io/photo.jpg",
-    "description": "Raymund Macay, also known as Bebe, is from Omod, Bayawan City. Just a kid with a big dream.",
+    "image": "https://raymundmacay.github.io/photo1.jpg",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Omod, Bayawan City",
@@ -43,169 +37,113 @@
     },
     "sameAs": [
       "https://www.facebook.com/"
-    ],
-    "knowsAbout": [
-      "Tagay",
-      "Big Dreams",
-      "Being Kyut"
     ]
   }
   </script>
 
   <style>
-    :root {
-      --text: #1a1a1a;
-      --muted: #5f6368;
-      --accent: #ff4d6d;
-      --bg: #ffffff;
-      --card: #fdf2f4;
-      --border: #f5d5dc;
-    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      max-width: 780px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 640px;
       margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
-      line-height: 1.7;
-      color: var(--text);
-      background: var(--bg);
+      padding: 4rem 1.5rem;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #fff;
       -webkit-font-smoothing: antialiased;
     }
     header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+    header p {
+      color: #888;
+      font-size: 0.95rem;
+    }
+    .photos {
       display: flex;
-      gap: 1.5rem;
-      align-items: center;
-      margin-bottom: 2.5rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
+      gap: 0.75rem;
+      justify-content: center;
+      margin: 2rem 0;
     }
-    header img {
-      width: 96px; height: 96px;
-      border-radius: 50%;
+    .photos img {
+      width: 50%;
+      aspect-ratio: 1 / 1;
       object-fit: cover;
-      flex-shrink: 0;
-      border: 3px solid var(--border);
+      border-radius: 8px;
     }
-    h1 { font-size: 2rem; letter-spacing: -0.02em; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.05rem; font-weight: 500; color: var(--accent); }
-    section { margin-top: 2.5rem; }
-    h3 {
+    section {
+      margin-top: 2rem;
+    }
+    h2 {
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
+      color: #888;
       font-weight: 600;
+      margin-bottom: 0.5rem;
     }
-    p { margin-bottom: 0.75rem; }
-    p:last-child { margin-bottom: 0; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .quote {
-      font-size: 1.15rem;
-      font-style: italic;
-      color: var(--accent);
-      padding: 1rem 1.25rem;
-      background: var(--card);
-      border-left: 4px solid var(--accent);
-      border-radius: 6px;
-      margin: 1rem 0;
-    }
-    ul.chips {
-      list-style: none; padding: 0;
-      display: flex; flex-wrap: wrap; gap: 0.5rem;
-    }
-    ul.chips li {
-      background: var(--card);
-      border: 1px solid var(--border);
-      padding: 0.35rem 0.85rem;
-      border-radius: 999px;
-      font-size: 0.9rem;
-    }
-    ul.links {
-      list-style: none; padding: 0;
-      display: flex; flex-wrap: wrap; gap: 0.75rem;
-    }
-    ul.links li a {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: all 0.15s ease;
-    }
-    ul.links li a:hover {
-      background: var(--accent);
-      color: #fff;
-      border-color: var(--accent);
+    a {
+      color: #1a1a1a;
       text-decoration: none;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1px;
+    }
+    a:hover {
+      border-bottom-color: #1a1a1a;
     }
     footer {
       margin-top: 4rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-      color: var(--muted);
+      font-size: 0.8rem;
+      color: #888;
+      text-align: center;
     }
-    @media (max-width: 520px) {
-      body { padding: 2rem 1.25rem 3rem; }
-      header { flex-direction: column; text-align: center; gap: 1rem; }
-      h1 { font-size: 1.6rem; }
-      header img { width: 84px; height: 84px; }
+    @media (max-width: 480px) {
+      .photos {
+        flex-direction: column;
+      }
+      .photos img {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="ma.jpg" alt="Portrait of Raymund Macay" />
-    <div>
-      <h1>Raymund Macay</h1>
-      <h2>Retired Mamayotay / Kyut</h2>
-    </div>
+    <h1>Raymund Macay</h1>
+    <p>Bebe · Omod, Bayawan City</p>
   </header>
 
+  <div class="photos">
+    <img src="photo1.jpg" alt="Raymund Macay photo 1" />
+    <img src="photo2.jpg" alt="Raymund Macay photo 2" />
+  </div>
+
   <section>
-    <h3>About</h3>
-    <p class="quote">"Just a kid with a big dream."</p>
-    <p>
-      Raymund Macay, AKA <strong>Bebe</strong>, is from
-      <strong>Omod, Bayawan City</strong>. A retired Mamayotay and certified Kyut.
-    </p>
-    <p>
-      Inom is Lifestyle
-    </p>
+    <h2>About</h2>
+    <p>Just a kid with a big eye.</p>
   </section>
 
   <section>
-    <h3>Vibes</h3>
-    <ul class="chips">
-      <li>Kyut</li>
-      <li>Retired Mamayotay</li>
-      <li>Tagay</li>
-      <li>Big Dreamer</li>
-      <li>Omod Represent</li>
-    </ul>
+    <h2>Location</h2>
+    <p>Omod, Bayawan City, Negros Oriental, Philippines</p>
   </section>
 
   <section>
-    <h3>Location</h3>
-    <p>📍 Omod, Bayawan City, Negros Oriental, Philippines</p>
-  </section>
-
-  <section>
-    <h3>Find Me Online</h3>
-    <ul class="links">
-      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
-    </ul>
+    <h2>Contact</h2>
+    <p><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></p>
   </section>
 
   <footer>
-    © <span id="year"></span> Raymund Macay.
+    © <span id="year"></span> Raymund Macay
   </footer>
 
   <script>
